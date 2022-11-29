@@ -1,0 +1,26 @@
+// it is a template inheritance for extend page
+html
+  head
+    title green_Rjagro
+    block scripts
+    block style
+  Body
+        nav#navbar
+            div#logo
+              img(src="/static/agriculturelogo1.jpg")
+            ul
+              li.item #[a(href="/#home") Home]
+              li.item #[a(href="/#instrument-container") Instrument]
+              li.item #[a(href="/#crops-section") Crops]
+              li.item #[a(href="/about") About us]
+              li.item #[a(href="/contact") Contact us]
+            div.rightNav
+                li.item #[a(href="/#container-login") login] 
+            div.burger
+               div.line
+               div.line
+               div.line
+             
+        block content
+        footer#footer
+         | Copyright © 2022 www.greenrjagro.com. All rights reserved!

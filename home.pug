@@ -1,0 +1,95 @@
+extends base.pug
+
+block scripts 
+   script(scr='/static/index.js')
+block style 
+   style 
+     include ../static/style.css 
+     include ../static/login.css 
+
+block content 
+    section#home
+      div#container-login
+        h1 Log In
+        div.boxlog
+            i.fa-fa-envelope
+            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+        div.boxlog
+            i.fa-fa-key
+            <input type="password" name="password" id="password" placeholder="Enter Your Password..">
+        button.btni Sign In
+
+      h1.h-primary Welcome to Agriculture
+      p There are present different types of instrument and forming method
+      p for different types of crops.
+      p Forming with Rj Verma. 
+    section#instrument-container
+        h1.h-primary.center Agriculture Instrument
+        div#instrument
+          div.box
+              img(src="/static/tractorimg1.png")
+              h2.h-secondary.center Tractor
+              p.center A tractor is an engineering vehicle specifically designed to deliver a high tractive effort at slow speeds, for the purposes of hauling a trailer ormachinery such as that used in agriculture, mining or construction . but nowadays agreat variety of tasks. Agricultural implements may be towed behind or mounted on the tractor.
+          div.box
+              img(src="/static/rotovator.png")
+              h2.h-secondary.center Rotovator
+              p.center Rotary tiller is the most efficient syatem when we ask for a definitive tillage solution. The results is always best no matter the Soil type. The rotary tiller is most versatile implement for two purposes: Crumbling and Residues mixing.Rotavator is a tractor-drawn implement which is mainly used for seed bed preparation within one or twopasses and is suitable in removing & mixing residual of maize, wheat, sugarcane etc</p>
+          div.box
+              img(src="/static/fadwa.jpeg")
+              h2.h-secondary.center Fadwa
+              p.center Agriculture Fawda Considered amongst the praiseworthy names of the industry, we are dedicatedly affianced in providinga superb quality range of Agriculture Fawda.Product Details:- Highly effective- Excellent performance  - Corrosion resistance - Longer working life  - Competitive rates.</p>
+          div.box
+              img(src="/static/cultivator.jpg")
+              h2.h-secondary.center cultivator
+              p.center The main function of the field cultivator is to prepare a proper seedbed for the crop to be planted into, to bury crop residue in the soil. helping to warmthe soil before planting
+          div.box
+              img(src="/static/sickle.jpg")
+              h2.h-secondary.center sickle
+              p.center A sickle, bagging hook, reaping-hook or grasshook is a single-handed agricultural tooldesigned with variously curved blades and typically used for harvesting, or reaping, grain crops orcutting succulent forage chiefly for feeding livestock, either freshly cut or dried as hay
+          div.box
+              img(src="/static/insectiside1.jpg")
+              h2.h-secondary.center insectisides
+              p.center Insecticides are substances used to kill insects. They include ovicides and larvicides  used against insect eggs and larvae, respectively. Insecticides are used in agriculture,  medicine, industry and by consumers. Insecticides are claimed to be a major factor behind  the increase in the 20th-century's agricultural productivity. Nearly all insecticides  have the potential to significantly alter ecosystems. 
+          div.box
+              img(src="/static/herbiside.jpg")
+              h2.h-secondary.center Herbicides
+              p.center  Herbicides are chemicals used to manipulate or control undesirable vegetation.Herbicide application occurs most frequently in row-crop farming, where they are applied before orduring planting to maximize crop productivity by minimizing other vegetation
+    section#crops-section
+      h1.h-primary.center Crops
+      h2.h-secondry.center Forming of wheat with step
+      div#crops
+        div.crops-item
+          img(src="/static/crops1.jpg")   
+          h2.h-secondary.center step1
+          p.center First of all powering of soil and mixesture of wheat seeds and fertilizer as like dia-amonia phoshate, urea and potash.   
+        div.crops-item
+          img(src="/static/crops2.jpg")   
+          h2.h-secondary.center step2
+          p.center After almost 21-30 days, we can see this like crops then we must be care aboutthese baby plant or crops.
+        div.crops-item
+          img(src="/static/crops3.jpg")   
+          h2.h-secondary.center step3
+          p.center this step further goes to watering (seechae) by using canal or own pumpiset theseprocess apply with medhbandhi.
+        div.crops-item
+          img(src="/static/crops4.jpg")   
+          h2.h-secondary.center step4
+          p.center this process called fertilizering process by this process destroy all types ofgress that means behinde crops.
+        div.crops-item
+          img(src="/static/crops5.jpg")   
+          h2.h-secondary.center step5
+          p.center After almost 40 days from initial point we can drown urea in the field of wheatcrops by ownself and care the crops.
+        div.crops-item
+          img(src="/static/crops6.jpg")   
+          h2.h-secondary.center step6
+          p.center After almost 90 days from initial point we can see like it care the crops aboutthere is no any types of disease.
+        div.crops-item
+          img(src="/static/crops7.jpg")   
+          h2.h-secondary.center step7
+          p.center After almost 120 days from initial point your wheat crops will be ready toharvesting that means complited it.
+        div.crops-item
+          img(src="/static/crops8.jpg")   
+          h2.h-secondary.center step8
+          p.center By havestor harvesting the crops of wheat and get fresh and pure wheatthese are all process to be complited. we can see it.
+   
+
+    

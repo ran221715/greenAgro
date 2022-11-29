@@ -1,0 +1,41 @@
+#container-login{ 
+        z-index: -1;
+        color: white;
+        position: absolute;
+        right: 2%;
+    }
+#container-login h1{
+        font-family: 'Heebo', sans-serif;
+        width: 50%;
+       display: inline-block;
+        font-size: 40px;
+        border-bottom: 5px solid purple;
+        margin-bottom: 10px;
+        padding: 13px 0;
+    } 
+.boxlog{
+        width: 100%; 
+        margin: 15px 0px;
+        border-bottom: 2px solid purple;
+    }
+.boxlog input{  
+        background: none;
+        width: 75%;
+        padding: 5px 10px;
+        font-size: 20px;
+        border: none;
+        outline:none;
+        color: white;
+    }
+.btni{
+        color: white;
+        cursor: pointer;
+        outline: none; 
+        margin: 9px 0;
+        padding: 10px 21px;
+        border: 2px solid purple;
+        border-radius: 10px;
+        font-size: 18px;
+        background: none;
+        font-weight: bold;     
+    }    
